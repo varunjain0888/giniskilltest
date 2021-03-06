@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GiniSkillTest</string>
+    <string name="cat_list_title">Cats Images List</string>
+    <string name="cat_image_title">Cat Image</string>
+</resources>

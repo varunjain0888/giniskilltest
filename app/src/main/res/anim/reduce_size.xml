@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+    <set>
+        <objectAnimator
+            android:duration="300"
+            android:propertyName="scaleX"
+            android:valueTo="0.9f"
+            android:valueType="floatType" />
+        <objectAnimator
+            android:duration="300"
+            android:propertyName="scaleY"
+            android:valueTo="0.9f"
+            android:valueType="floatType" />
+    </set>
+</set>
+
+    <!--  AnimatorSet reducer = (AnimatorSet) AnimatorInflater.loadAnimator(mContext,R.animator.squeeze_in);
+      reducer.setTarget(view);
+      reducer.start();
+
+      AnimatorSet regainer = (AnimatorSet) AnimatorInflater.loadAnimator(mContext,R.animator.squeeze_out);
+      regainer.setTarget(view);
+      regainer.start();-->

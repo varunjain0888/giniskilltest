@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeDest">
+
+    <fragment
+        android:id="@+id/homeDest"
+        android:name="com.gini.skilltest.ui.main.view.home.CatsListFragment"
+        android:label="@string/cat_list_title"
+        tools:layout="@layout/fragment_cats_list">
+        <action
+            android:id="@+id/navigate_to_view_image"
+            app:destination="@id/imageViewDest" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageViewDest"
+        android:name="com.gini.skilltest.ui.main.view.home.FullImageViewFragment"
+        android:label="@string/cat_image_title"
+        tools:layout="@layout/fragment_view_full_image">
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <argument
+            android:name="url"
+            app:argType="string" />
+        <action
+            android:id="@+id/navigate_to_home"
+            app:popUpTo="@+id/homeDest"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

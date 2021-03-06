@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/varunjain/Desktop/GiniSkillTest/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/header.xml",
+        "source": "/Users/varunjain/Desktop/GiniSkillTest/app/src/main/res/layout/header.xml"
+    },
+    {
+        "merged": "/Users/varunjain/Desktop/GiniSkillTest/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/view_error.xml",
+        "source": "/Users/varunjain/Desktop/GiniSkillTest/app/src/main/res/layout/view_error.xml"
+    },
+    {
+        "merged": "/Users/varunjain/Desktop/GiniSkillTest/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_cats_list.xml",
+        "source": "/Users/varunjain/Desktop/GiniSkillTest/app/src/main/res/layout/fragment_cats_list.xml"
+    },
+    {
+        "merged": "/Users/varunjain/Desktop/GiniSkillTest/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/varunjain/Desktop/GiniSkillTest/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/varunjain/Desktop/GiniSkillTest/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_cat.xml",
+        "source": "/Users/varunjain/Desktop/GiniSkillTest/app/src/main/res/layout/item_cat.xml"
+    },
+    {
+        "merged": "/Users/varunjain/Desktop/GiniSkillTest/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/load_state_view.xml",
+        "source": "/Users/varunjain/Desktop/GiniSkillTest/app/src/main/res/layout/load_state_view.xml"
+    },
+    {
+        "merged": "/Users/varunjain/Desktop/GiniSkillTest/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/shimmer_placeholder_layout.xml",
+        "source": "/Users/varunjain/Desktop/GiniSkillTest/app/src/main/res/layout/shimmer_placeholder_layout.xml"
+    },
+    {
+        "merged": "/Users/varunjain/Desktop/GiniSkillTest/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_view_full_image.xml",
+        "source": "/Users/varunjain/Desktop/GiniSkillTest/app/src/main/res/layout/fragment_view_full_image.xml"
+    },
+    {
+        "merged": "/Users/varunjain/Desktop/GiniSkillTest/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_base.xml",
+        "source": "/Users/varunjain/Desktop/GiniSkillTest/app/src/main/res/layout/content_base.xml"
+    },
+    {
+        "merged": "/Users/varunjain/Desktop/GiniSkillTest/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/shimmer_product_item.xml",
+        "source": "/Users/varunjain/Desktop/GiniSkillTest/app/src/main/res/layout/shimmer_product_item.xml"
+    }
+]
