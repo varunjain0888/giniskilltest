@@ -28,7 +28,6 @@ import com.gini.skilltest.R
 import com.gini.skilltest.ui.main.view.home.deligates.ImageLoaderDelegate
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
-import java.text.NumberFormat
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*
@@ -180,16 +179,6 @@ fun TextInputEditText.mismatch(str: String?): Boolean {
     return false
 }
 
-fun Float.getFormatted(): String {
-    val formatter = NumberFormat.getInstance(Locale.US)
-    formatter.maximumFractionDigits = 2
-    formatter.minimumFractionDigits = 0
-    return formatter.format(this)
-}
-
-fun Int.isGreater(number: Int): Boolean {
-    return this > number
-}
 
 fun String.getFormatedTime(): String {
     val sdf = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss")
